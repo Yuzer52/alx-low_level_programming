@@ -1,12 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
- * main - it is the main function of the program
- * Return:it is Always 1 for (Success)
+ * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ *                followed by a new line, to standard error.
+ *
+ * Return: Always 1.
  */
 int main(void)
 {
-	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\r", stdout);
+	write(2,
+	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	      59);
+
 	return (1);
 }
