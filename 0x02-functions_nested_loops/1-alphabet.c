@@ -1,4 +1,4 @@
-#include "1-alphabet.c"
+#include "main.h"
 
 /**
   * print_alphabet - Print the alphabet
