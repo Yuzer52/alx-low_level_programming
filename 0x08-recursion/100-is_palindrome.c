@@ -1,7 +1,5 @@
 #include "main.h"
 
-int check_palindrome(char *s);
-
 /**
   * is_palindrome - It Returns if a string is palindrome
   * @s: Is the string value to be checked
