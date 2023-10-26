@@ -1,8 +1,10 @@
 #include "main.h"
 
+int check_palindrome(char *s);
+
 /**
-  * is_palindrome - It Returns if a string is palindrome
-  * @s: Is the string value to be checked
+  * is_palindrome - Returns if a string is palindrome
+  * @s: the string value to be checked
   *
   * Return: integer value
   */
@@ -16,7 +18,7 @@ int is_palindrome(char *s)
 
 /**
   * check_palindrome - Check if a string is palindrome
-  * @s: Is the string value to be checked
+  * @s: the string value to be checked
   *
   * Return: integer value
   */
