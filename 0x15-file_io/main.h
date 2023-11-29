@@ -1,12 +1,15 @@
-int _putchar(char c);
-void reset_to_98(int *n);
-void swap_int(int *a, int *b);
-int _strlen(char *s);
-void _puts(char *str);
-void print_rev(char *s);
-void rev_string(char *s);
-void puts2(char *str);
-void puts_half(char *str);
-void print_array(int *a, int n);
-char *_strcpy(char *dest, char *src);
-int _atoi(char *s);
+main.h
+#ifndef __MAIN_H__
+#define __MAIN_H__
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+ssize_t read_textfile(const char *filename, size_t letters);
+int create_file(const char *filename, char *text_content);
+int append_text_to_file(const char *filename, char *text_content);
+
+#endif
