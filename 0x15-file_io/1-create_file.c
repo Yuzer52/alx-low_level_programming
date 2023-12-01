@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * create_file - creates a file
-  * @filename: the name of the file to create
-  * @text_content: a NULL terminated string to write to the file
+  * create_file - It creates a file
+  * @filename: The name of the file to create
+  * @text_content: A NULL terminated string to write to the file
   *
   * Return: if filename is NULL return -1
   */
@@ -40,3 +40,4 @@ int _strlen(char *s)
 
 	return (c);
 }
+
